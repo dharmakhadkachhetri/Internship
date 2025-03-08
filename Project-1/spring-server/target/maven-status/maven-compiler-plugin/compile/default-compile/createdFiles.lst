@@ -1,0 +1,7 @@
+com/dummy/spring_server/service/DummyService.class
+com/dummy/spring_server/dto/DummyDTO.class
+com/dummy/spring_server/repository/DummyRepository.class
+com/dummy/spring_server/controller/DummyController.class
+com/dummy/spring_server/SpringServerApplication.class
+com/dummy/spring_server/model/Dummy.class
+com/dummy/spring_server/model/Dummy$Status.class

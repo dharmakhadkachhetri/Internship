@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-client-server-deployment
+  namespace: project-1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web-client-server
+  template:
+    metadata:
+      labels:
+        app: web-client-server
+    spec:
+      containers:
+      - name: web-client-server
+        image: #project-1 web-client-server dockerimage
+        ports:
+        - containerPort: 3000

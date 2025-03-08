@@ -1,0 +1,6 @@
+/home/dharma/projects/Kubernetes-env/Project-1/spring-server/src/main/java/com/dummy/spring_server/SpringServerApplication.java
+/home/dharma/projects/Kubernetes-env/Project-1/spring-server/src/main/java/com/dummy/spring_server/controller/DummyController.java
+/home/dharma/projects/Kubernetes-env/Project-1/spring-server/src/main/java/com/dummy/spring_server/dto/DummyDTO.java
+/home/dharma/projects/Kubernetes-env/Project-1/spring-server/src/main/java/com/dummy/spring_server/model/Dummy.java
+/home/dharma/projects/Kubernetes-env/Project-1/spring-server/src/main/java/com/dummy/spring_server/repository/DummyRepository.java
+/home/dharma/projects/Kubernetes-env/Project-1/spring-server/src/main/java/com/dummy/spring_server/service/DummyService.java

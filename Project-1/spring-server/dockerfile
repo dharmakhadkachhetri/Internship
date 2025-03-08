@@ -1,0 +1,14 @@
+# Use official OpenJDK image
+FROM openjdk:17
+
+# Set working directory
+WORKDIR /app
+
+# Copy JAR file from local machine to container
+COPY target/*.jar app.jar
+
+# Expose port (Spring Boot default is 8080)
+EXPOSE 8080
+
+# Run the application
+CMD ["java", "-jar", "app.jar"]
